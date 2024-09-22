@@ -1,0 +1,25 @@
+.basic-multi-select {
+    width: 300px; /* Adjust width as needed */
+}
+
+.basic-multi-select .select__control {
+    border: 1px solid lightgray;
+    box-shadow: none;
+}
+
+.basic-multi-select .select__control:hover {
+    border-color: blue;
+}
+
+.basic-multi-select .select__multi-value {
+    background-color: lightblue;
+}
+
+.basic-multi-select .select__multi-value__label {
+    color: black;
+}
+
+.basic-multi-select .select__multi-value__remove:hover {
+    background-color: red;
+    color: white;
+}
